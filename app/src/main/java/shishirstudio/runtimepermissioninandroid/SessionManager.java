@@ -12,7 +12,7 @@ public class SessionManager {
 
     private SharedPreferences sharedPreferences;
     private SharedPreferences.Editor editor;
-    private final String MY_PREF = "my_preference";
+    private final String MY_PREF = "my_preferences";
 
     public SessionManager(Context context) {
         sharedPreferences = context.getSharedPreferences(MY_PREF, MODE_PRIVATE);
